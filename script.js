@@ -1,9 +1,9 @@
 
-var imageElement = document.getElementById("image");
+const imageElement = document.getElementById("image");
 
 document.getElementById("imageSelect").addEventListener("change", function () {
-    var selectedImage = this.value;
-    var imageWrapper = document.getElementById("imageWrapper");
+    const selectedImage = this.value;
+    const imageWrapper = document.getElementById("imageWrapper");
 
 switch (selectedImage) {
     
